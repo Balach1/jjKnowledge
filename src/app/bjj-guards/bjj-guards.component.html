@@ -1,0 +1,6 @@
+<h2>Guards</h2>
+<ul class="guards">
+  <li *ngFor="let guard of guards" (click)="onSelect(hero)">
+    <span class="badge">{{guard.id}}</span> {{guard.name}}
+  </li>
+</ul>
